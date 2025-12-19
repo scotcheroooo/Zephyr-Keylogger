@@ -1,0 +1,5 @@
+fernet_key.txt
+devlog.txt
+decoded_devlog.txt
+__pycache__/
+.env

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>upload zephyr devlog</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>zephyr devlog viewer</h1>
+
+    <form action="/view" method="POST" enctype="multipart/form-data">
+        <input type="file" name="logfile" required>
+        <button type="submit">Decode Log</button>
+    </form>
+</body>
+</html>
